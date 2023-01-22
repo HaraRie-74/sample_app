@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   get 'lists/new'  #'lists/new'=>'lists#new'と同じ意味
   post 'lists'=>'lists#create'
-  get 'lists/index'
+  get 'lists'=>'lists#index'
   get 'lists/show'
   get 'lists/edit'
   get '/top'=>'homes#top'
