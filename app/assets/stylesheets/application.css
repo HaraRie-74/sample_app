@@ -95,3 +95,8 @@ main{
   white-space:nowrap;
   text-overflow:ellipsis;
 }
+
+.list-box img{
+  height:200px;
+  width:200px;
+}
